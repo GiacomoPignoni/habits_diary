@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:project_habits/db/days_table.dart';
 import 'package:project_habits/db/habits_days_table.dart';
 import 'package:project_habits/db/habits_table.dart';
-import 'package:project_habits/dev/create_mock_data.dart';
 import 'package:project_habits/models/habit.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -21,7 +20,18 @@ class HabitsDb {
     await db.execute(HabitsTable.createQuery);
     await db.execute(DaysTable.createQuery);
     await db.execute(HabitsDaysTable.createQuery);
-    createMockData(db); //TODO REMOVE
+    await _createTutorialHabit(db);
+  }
+
+  static Future<void> _createTutorialHabit(Database db) async {
+    db.insert(
+      HabitsTable.tableName, 
+      {
+        HabitsTable.text: "Add habits ↗️",
+        HabitsTable.emoji: "✔️",
+        HabitsTable.period: "[1, 2, 3, 4, 5, 6, 7]"
+      }
+    );
   }
 
   static Future<List<Map<String, dynamic>>> getAllHabits(Database db) {
