@@ -25,7 +25,7 @@ class SettingsDialogController {
   }
 
   void openGithub() {
-    launch("https://github.com/");
+    launch("https://github.com/GiacomoPignoni/habits_diary");
   }
 
   void dispose() {

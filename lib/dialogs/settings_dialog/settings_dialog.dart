@@ -83,7 +83,7 @@ class SettingsDialog extends StatelessWidget {
                         style: Theme.of(context).textTheme.subtitle1,
                         children: [
                           TextSpan(
-                            text: "Github",
+                            text: "GitHub",
                             style: Theme.of(context).textTheme.subtitle1!.copyWith(
                               decoration: TextDecoration.underline,
                               color: Theme.of(context).accentColor
