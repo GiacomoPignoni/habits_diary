@@ -54,7 +54,7 @@ class HomePageController {
   }
 
   int countAllHabits(int index) {
-    if(days.length > index) {
+    if(days.length > index && days[index].habits.length > 0) {
       return days[index].habits.length;
     }
     return 1;
