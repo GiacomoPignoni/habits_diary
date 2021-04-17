@@ -25,7 +25,9 @@ class HabitsDayList extends StatelessWidget {
                   padding: const EdgeInsets.only(right: 10),
                   child: Text(
                     controller.habits[controller.days[dayIndex].habits.keys.elementAt(i)]?.emoji ?? "‽",
-                    style: Theme.of(context).textTheme.headline1
+                    style: Theme.of(context).textTheme.headline1!.copyWith(
+                      color: Theme.of(context).primaryColorDark
+                    )
                   ),
                 ),
                 Expanded(

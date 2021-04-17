@@ -48,7 +48,9 @@ class HabitsList extends StatelessWidget {
                         padding: const EdgeInsets.only(right: 10),
                         child: Text(
                           habit.emoji,
-                          style: Theme.of(context).textTheme.headline1,
+                          style: Theme.of(context).textTheme.headline1!.copyWith(
+                            color: Theme.of(context).primaryColorDark
+                          ),
                         ),
                       ),
                       Expanded(
