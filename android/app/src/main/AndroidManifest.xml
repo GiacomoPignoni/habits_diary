@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.project_habits">
+    package="com.giacomopignoni.habits_diary">
    <application
-        android:label="project_habits"
+        android:label="Habits Diary"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
