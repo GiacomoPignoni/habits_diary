@@ -9,7 +9,7 @@ Track your habits day by day and see your result like the GitHub's contributions
 
 ## Download
 
-<a href="https://www.apple.com/app-store/"><img width="250" alt="Get it on App Store" src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png"></a>
+<a href="https://apps.apple.com/it/app/habits-diary/id1563547407"><img width="250" alt="Get it on App Store" src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png"></a>
 <a href="https://play.google.com/store/apps/details?id=com.giacomopignoni.habits_diary"><img width="250" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a>
 
 ### Support
