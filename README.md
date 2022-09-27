@@ -5,13 +5,10 @@
 
 Track your habits day by day and see your result like the GitHub's contributions board  
 
+This is an app made with Flutter 2
+
+It's my first ever app I've published, but now it is no longer available in the stores. I decided to remove it because I'm no longer supporting it and also it didn't get success.
+
+If you want to try it you can build it on your own, just use Flutter 2
+
 <img src="/screenshots/light.png" width="300"/> <img src="/screenshots/dark.png" width="300"/>
-
-## Download
-
-<a href="https://apps.apple.com/it/app/habits-diary/id1563547407"><img width="250" alt="Get it on App Store" src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png"></a>
-<a href="https://play.google.com/store/apps/details?id=com.giacomopignoni.habits_diary"><img width="250" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a>
-
-### Support
-If you want to support this project you can buy me a coffee 😊  
-[![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pigna)
